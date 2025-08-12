@@ -1,6 +1,5 @@
-<p align="center" style="font-size: 72px; font-weight: bold; margin-bottom: 0;">
-PaEmotion
-</p>
-<p align="center" style="margin-top: 0;">
+<h1 align="center">PaEmotion</h1>
+
+<p align="center">
   <img src="assets/logo.png" alt="프로젝트 로고" width="200" />
 </p>
