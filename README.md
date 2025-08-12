@@ -1,4 +1,4 @@
-<p align="center" style="font-size: 48px; font-weight: bold; margin-bottom: 0;">
+<p align="center" style="font-size: 72px; font-weight: bold; margin-bottom: 0;">
 PaEmotion
 </p>
 <p align="center" style="margin-top: 0;">
