@@ -1,5 +1,5 @@
-<p align="center" style="font-size:30px;">
-PaEmotion
+<p align="center">
+#PaEmotion
 </p>
 
 <p align="center">
