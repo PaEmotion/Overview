@@ -38,7 +38,7 @@
 | **Frontend** | Flutter (Dart) |
 | **Backend** | FastAPI (Python) |
 | **Database** | MySQL |
-| **AI/ML** | OpenAI GPT API, scikit-learn (회귀 분석), DecisionTreeClassifier |
+| **AI/ML** | OpenAI GPT API, Random Forest Regression, Random Forest Classification |
 표 지우고 벳지 달기
 
 <br><br>
