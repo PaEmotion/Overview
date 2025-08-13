@@ -2,7 +2,8 @@
   <img src="assets/PaEmotion.webp" alt="프로젝트 로고" width="500" />
 </p>
 
-# 소비에 감정을 더하고, AI로 돌아보는 소비습관 리마인드 앱 <br><br> 감정 기반 소비 기록 + 지출 예측 + 챌린지로 습관 교정까지!
+# 소비에 감정을 더하고, AI로 돌아보는 소비습관 리마인드 앱
+## 감정 기반 소비 기록 + 지출 예측 + 챌린지로 습관 교정까지!
 
 <br><br>
 ## 🔍프로젝트 소개
@@ -88,7 +89,7 @@
 - main, develop, Feat 브랜치로 나누어 개발 진행
 - main : 배포 단계에서만 사용
 - develop : 개발 단계에서 git-flow의 master 역할
-- Feat : 기능 단위로 독립적인 개발 환경을 위하여 사용 후 develo으로 merge
+- Feat : 기능 단위로 독립적인 개발 환경을 위하여 사용 후 develop으로 merge
   
 **[ PR 컨벤션 ]**
 - [Issue 종류] 구현내용 #이슈_번호
