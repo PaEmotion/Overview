@@ -1,10 +1,8 @@
 <p>
-  <img src="assets/logo.png" alt="프로젝트 로고" width="200" />
+  <img src="assets/PaEmotion.webp" alt="프로젝트 로고" width="500" />
 </p>
 
-# 💸PaEmotion💸
-### 소비에 감정을 더하고, AI로 돌아보는 소비습관 리마인드 앱
-### 감정 기반 소비 기록 + 지출 예측 + 챌린지로 습관 교정까지!
+### 소비에 감정을 더하고, AI로 돌아보는 소비습관 리마인드 앱 <br><br> 감정 기반 소비 기록 + 지출 예측 + 챌린지로 습관 교정까지!
 
 <br><br>
 ## 🔍프로젝트 소개
@@ -29,17 +27,41 @@
 
 <br><br>
 ## 🏗️ 개발 아키텍처
-여기에 이미지 추가
+<img src="assets/services.png" alt="ERD 이미지" width="800" />
+
+<br><br>
+## 🔗ERD
+<img src="assets/erd.png" alt="ERD 이미지" width="740" />
 
 <br><br>
 ## 🛠 기술 스택
-| 분야 | 기술 |
-| --- | --- |
-| **Frontend** | Flutter (Dart) |
-| **Backend** | FastAPI (Python) |
-| **Database** | MySQL |
-| **AI/ML** | OpenAI GPT API, Random Forest Regression, Random Forest Classification |
-표 지우고 벳지 달기
+### Backend
+![FastAPI](https://img.shields.io/badge/FastAPI-009688?style=for-the-badge&logo=fastapi&logoColor=white)
+![Python](https://img.shields.io/badge/Python-3776AB?style=for-the-badge&logo=python&logoColor=white)
+![SQLAlchemy](https://img.shields.io/badge/SQLAlchemy-D71F00?style=for-the-badge&logo=sqlalchemy&logoColor=white)
+![Asyncio](https://img.shields.io/badge/Asyncio-3776AB?style=for-the-badge&logo=python&logoColor=white)
+![JWT](https://img.shields.io/badge/JWT-000000?style=for-the-badge&logo=jsonwebtokens&logoColor=white)
+![Logging](https://img.shields.io/badge/Logging-FFD43B?style=for-the-badge&logo=python&logoColor=black)
+![MySQL](https://img.shields.io/badge/MySQL-4479A1?style=for-the-badge&logo=mysql&logoColor=white)
+
+### Frontend
+![Flutter](https://img.shields.io/badge/Flutter-02569B?style=for-the-badge&logo=flutter&logoColor=white)
+![Dart](https://img.shields.io/badge/Dart-0175C2?style=for-the-badge&logo=dart&logoColor=white)
+![Provider](https://img.shields.io/badge/Provider-4285F4?style=for-the-badge&logo=flutter&logoColor=white)
+![Dio](https://img.shields.io/badge/Dio-FFCA28?style=for-the-badge&logo=flutter&logoColor=black)
+
+### AI & Model
+![Google Colab](https://img.shields.io/badge/Google%20Colab-F9AB00?style=for-the-badge&logo=googlecolab&logoColor=white)
+![scikit-learn](https://img.shields.io/badge/scikit--learn-F7931E?style=for-the-badge&logo=scikit-learn&logoColor=white)
+![OpenAI GPT](https://img.shields.io/badge/OpenAI%20GPT-412991?style=for-the-badge&logo=openai&logoColor=white)
+
+### Tools & Infra
+![VS Code](https://img.shields.io/badge/VS%20Code-007ACC?style=for-the-badge&logo=visualstudiocode&logoColor=white)
+![Android Studio](https://img.shields.io/badge/Android%20Studio-3DDC84?style=for-the-badge&logo=androidstudio&logoColor=white)
+![Docker](https://img.shields.io/badge/Docker-2496ED?style=for-the-badge&logo=docker&logoColor=white)
+![AWS EC2](https://img.shields.io/badge/AWS%20EC2-FF9900?style=for-the-badge&logo=amazonaws&logoColor=white)
+![Notion](https://img.shields.io/badge/Notion-000000?style=for-the-badge&logo=notion&logoColor=white)
+![Discord](https://img.shields.io/badge/Discord-5865F2?style=for-the-badge&logo=discord&logoColor=white)
 
 <br><br>
 ## 🤖 AI & 머신러닝
@@ -50,5 +72,67 @@
 | **Random Forest Classification** | 소비 성향 분석 |
 
 <br><br>
+## 📋 개발 기간 및 작업 관리
+**개발 기간**
+- 개발 기간 : 2025-06-30 ~ 2025-08-10
+
+**작업 관리**
+- GitHub Projects와 Issues를 사용하여 개발 진행 상황 공유
+- 주간회의를 진행하며 작업 순서와 방향성에 대한 고민을 나누고 Notion을 통해 전체적인 진행 상황 공유
+
+
+<br><br>
+## 📜 컨벤션 전략
+**[ 브랜치 컨벤션 ]**
+- Git-flow 전략을 기반으로 main, develop 브랜치와 feature 보조 브랜치 운용
+- main, develop, Feat 브랜치로 나누어 개발 진행
+- main : 배포 단계에서만 사용
+- develop : 개발 단계에서 git-flow의 master 역할
+- Feat : 기능 단위로 독립적인 개발 환경을 위하여 사용 후 develo으로 merge
+  
+**[ PR 컨벤션 ]**
+- [Issue 종류] 구현내용 #이슈_번호
+- ex) [Feature] 로그인 #1
+- Back : Pull Request만 날리고, Approve는 reviewer 담당 / Front : 독립적 합병
+
+**[ 커밋 컨벤션 ]**
+- [Issue 종류] 구현내용
+- ex) [Feature] 소비내역 생성 API 구현
+
+<br><br>
 ## 📱 어플 실행 화면
-이미지 추가
+<table>
+  <tr>
+    <td align="center">
+      <b>로그인 화면</b><br/>
+      <img src="assets/login.png" alt="Login 화면" width="300"/>
+    </td>
+    <td align="center">
+      <b>홈 화면</b><br/>
+      <img src="assets/home.png" alt="Home 화면" width="300"/>
+    </td>
+  </tr>
+  <tr>
+    <td align="center">
+      <b>주간 리포트 화면</b><br/>
+      <img src="assets/weeklyReport.png" alt="Weekly Report 화면" width="300"/>
+    </td>
+    <td align="center">
+      <b>월간 리포트 화면</b><br/>
+      <img src="assets/monthlyReport.png" alt="Monthly Report 화면" width="300"/>
+    </td>
+  </tr>
+  <tr>
+    <td align="center">
+      <b>예산 현황 화면</b><br/>
+      <img src="assets/budget.png" alt="Budget 화면" width="300"/>
+    </td>
+    <td align="center">
+      <b>참여 중인 챌린지 화면</b><br/>
+      <img src="assets/challenge.png" alt="Challenge 화면" width="300"/>
+    </td>
+  </tr>
+</table>
+
+
+
