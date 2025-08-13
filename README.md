@@ -13,17 +13,17 @@
 
 <br><br>
 ## 📌프로젝트 개요
-- **팀 구성:** Frontend 1명 · Backend 2명
-- **목표:**
+- **팀 구성 :** Frontend 1명 · Backend 2명
+- **목표 :**
     - 즉흥적·감정적 소비 인지 & 개선 유도
     - 소비-감정 관계를 AI로 분석하고 맞춤 피드백 제공
     - 예측 모델로 미래 지출 경향 점검 및 조절
 
 <br><br>
 ## 👩‍💻팀원 소개
-- **김도윤(팀장)** : AI, Backend
-- **박예린** : Backend
-- **김시연** : Design, Frontend
+- **김도윤(팀장) :** AI, Backend
+- **박예린 :** Backend
+- **김시연 :** Design, Frontend
 
 <br><br>
 ## 🏗️ 개발 아키텍처
