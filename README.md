@@ -3,7 +3,7 @@
 </p>
 
 # 소비에 감정을 더하고, AI로 돌아보는 소비습관 리마인드 앱
-## 감정 기반 소비 기록 + 지출 예측 + 소비 유형 인지 및 챌린지로 습관 교정까지!
+### 감정 기반 소비 기록 + 지출 예측 + 소비 유형 인지 및 챌린지로 습관 교정까지!
 
 <br><br>
 ## 🔍 프로젝트 소개
@@ -116,6 +116,10 @@
       <b>홈 화면</b><br/>
       <img src="assets/home.png" alt="Home 화면" width="300"/>
     </td>
+    <td align="center">
+      <b>예산 현황 화면</b><br/>
+      <img src="assets/budget.png" alt="Budget 화면" width="300"/>
+    </td>
   </tr>
   <tr>
     <td align="center">
@@ -126,18 +130,14 @@
       <b>월간 리포트 화면</b><br/>
       <img src="assets/monthlyReport.png" alt="Monthly Report 화면" width="300"/>
     </td>
-  </tr>
-  <tr>
-    <td align="center">
-      <b>예산 현황 화면</b><br/>
-      <img src="assets/budget.png" alt="Budget 화면" width="300"/>
-    </td>
     <td align="center">
       <b>참여 중인 챌린지 화면</b><br/>
       <img src="assets/challenge.png" alt="Challenge 화면" width="300"/>
     </td>
   </tr>
 </table>
+<br><br>
 
-
+## 📱 어플 시연 영상
+<img src="assets/video.gif" alt="시연 영상" width="300" />
 
